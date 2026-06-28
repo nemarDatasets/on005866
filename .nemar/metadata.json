@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005866",
-  "source": "openneuro",
-  "source_id": "ds005866",
+  "pipeline_stage": "validated",
   "title": "Flankers-NEAR",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Brennan Terhune-Cotter": {},
     "Phillip J. Holcomb": {},
@@ -12,21 +12,59 @@
     "Emily M. Akers": {},
     "Karen Emmorey": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005866.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005866",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005866",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx"
+  ],
+  "description": "The Flankers-NEAR dataset comprises event-related potential (ERP) recordings collected during a visual word recognition task with flanker manipulation. Participants viewed 90 real words and 90 pseudowords presented in three flanker conditions (no flanker, identical flankers, different flankers) while seated in a sound-attenuated room. This dataset enables investigation of how orthographic context influences neural responses to written word processing.",
+  "methods_description": "EEG data were collected while participants performed a visual lexical decision task. Stimuli consisted of 4-letter words and pseudowords presented on a 24-inch LCD monitor at 152 cm viewing distance. Each trial included a 1000ms purple fixation cross, 500ms white fixation cross, 150ms stimulus presentation, and response period via game controller. A total of 270 trials were presented across three flanker conditions.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "word recognition"
+    },
+    {
+      "term": "flanker task"
+    },
+    {
+      "term": "orthography"
+    },
+    {
+      "term": "visual processing"
+    }
+  ],
+  "source_hash": "27385274ce6eb51297d3c119455bacb5275140a9f9335e75be4ef0e2c27ca515"
 }
