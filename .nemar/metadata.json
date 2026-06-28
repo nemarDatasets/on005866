@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Flankers-NEAR",
+  "description": "The Flankers-NEAR dataset comprises event-related potential (ERP) recordings collected during a visual word recognition task with flanker manipulation. Participants viewed four-letter words and pseudowords presented with varying flanker conditions (no flanker, identical flankers, or different flankers) while their neural responses were recorded. This dataset provides neurophysiological evidence for understanding how contextual linguistic information modulates word recognition processes.",
+  "methods_description": "ERP data were collected at the NeuroCognition Laboratory at San Diego State University. Participants sat in a darkened, sound-attenuated room and viewed a 24-inch LCD monitor at 152 cm viewing distance. Stimuli consisted of 90 four-letter real words and 90 four-letter pseudowords presented in three flanker conditions (no flanker, identical flankers, different flankers) for a total of 270 trials. Each trial included a 1000ms purple fixation cross, 500ms white fixation cross, 150ms stimulus presentation, and response window. Participants responded via game controller.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,30 @@
     "Emily M. Akers": {},
     "Karen Emmorey": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005866.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
+    {
+      "term": "ERP"
+    },
+    {
+      "term": "word recognition"
+    },
+    {
+      "term": "flanker task"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "psycholinguistics"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005866",
       "identifier_type": "URL",
@@ -27,14 +47,19 @@
       "identifier": "https://nemar.org/dataset/on005866",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005866.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "3.8 GB (122 files)"
   ],
   "formats": [
     ".fdt",
@@ -42,29 +67,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "The Flankers-NEAR dataset comprises event-related potential (ERP) recordings collected during a visual word recognition task with flanker manipulation. Participants viewed 90 real words and 90 pseudowords presented in three flanker conditions (no flanker, identical flankers, different flankers) while seated in a sound-attenuated room. This dataset enables investigation of how orthographic context influences neural responses to written word processing.",
-  "methods_description": "EEG data were collected while participants performed a visual lexical decision task. Stimuli consisted of 4-letter words and pseudowords presented on a 24-inch LCD monitor at 152 cm viewing distance. Each trial included a 1000ms purple fixation cross, 500ms white fixation cross, 150ms stimulus presentation, and response period via game controller. A total of 270 trials were presented across three flanker conditions.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "word recognition"
-    },
-    {
-      "term": "flanker task"
-    },
-    {
-      "term": "orthography"
-    },
-    {
-      "term": "visual processing"
-    }
-  ],
-  "source_hash": "27385274ce6eb51297d3c119455bacb5275140a9f9335e75be4ef0e2c27ca515"
+  "source_hash": "df4a8641887eba1c7f32dd81359e4ed0e711bc43d0f2ba5b70b60a4b0937d3c4"
 }
